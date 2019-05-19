@@ -1,0 +1,18 @@
+.search-box {
+  width: 75%;
+  height: 35px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: rgba(255, 255, 255, 0.9);
+  outline: none;
+  font-size: 0.9em;
+}
+
+.search-box-form-container {
+  /* We need to position this to relative
+    so our suggestion box would be positioned
+    relative to it.
+   */
+  position: relative;
+}

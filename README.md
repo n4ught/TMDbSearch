@@ -1,2 +1,0 @@
-# TMDbSearch
-Created with CodeSandbox

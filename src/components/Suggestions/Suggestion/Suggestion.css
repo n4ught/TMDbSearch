@@ -1,0 +1,17 @@
+.suggestion-item {
+  padding: 0;
+}
+
+.suggestion-link:link,
+.suggestion-link:visited {
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.suggestion-link:hover {
+  background: #61dbfb;
+}

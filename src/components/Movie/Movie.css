@@ -1,0 +1,66 @@
+.movie-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+  border-bottom: 2px solid white;
+}
+
+.movie-cover img {
+  width: 383px;
+  /* height: 575px; */
+}
+
+.movie-details {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  text-align: left;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.movie-details .title {
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.movie-details .tagline {
+  font-family: Oswald, sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+  color: #61dbfb;
+  margin: 0;
+}
+
+.movie-details .genres {
+  color: #61dbfb;
+  font-size: 1.4em;
+}
+
+.movie-details .production-companies {
+  margin-bottom: 10%;
+}
+
+.movie-data-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". ." ". .";
+  grid-row-gap: 50px;
+}
+
+.movie-data-grid .release-date,
+.movie-data-grid .runtime,
+.movie-data-grid .revenue,
+.movie-data-grid .vote-average {
+  color: #61dbfb;
+  font-size: 1.4em;
+}
+
+.movie-data-grid p {
+  margin: 0;
+  padding: 0;
+}
