@@ -8,7 +8,7 @@ To use:
   
   <li>Download the files</li>
   <li>Run npm install</li>
-  <li>Run npm start to start a local server</li>
+  <li>Run 'npm start' on the terminal to start a local server</li>
 
 </ul>
 
